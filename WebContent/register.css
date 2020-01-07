@@ -1,0 +1,69 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.description-side{
+    background-color:beige;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.description span{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.description p{
+    font-size: 22px;
+}
+
+.login-side{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-side form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-side .text span{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.login-side .input-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.login-side .input-container label{
+    font-size: 20px;
+    margin-bottom: 10px
+}
+
+.login-side .input-container input{
+    font-size: 20px;
+}
